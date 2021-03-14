@@ -1,0 +1,567 @@
+:root {
+  --primary: #c271ff;
+  --font-family-base: "Source Sans Pro", sans-serif;
+}
+
+/* Navbar */
+.navbar-general {
+  border-bottom: none;
+  background-color: transparent !important;
+  font-family: var(--font-family-base);
+  position: absolute;
+}
+
+.navbar-dark .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+}
+
+.smile-face {
+  width: 36px;
+}
+
+.logo-text {
+  width: 114px;
+}
+
+.nav-link {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px !important;
+  line-height: 15px;
+  color: #ffffff !important;
+}
+
+/* Header */
+.header-section {
+  background-image: url(images/pic_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 1rem 5rem 1rem;
+}
+
+.display-1 {
+  line-height: 1.1 !important;
+}
+
+.title {
+  font-size: 7rem;
+  margin-bottom: 0 !important;
+}
+
+.list-inline {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.subtitle {
+  margin-top: 10rem;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: var(--font-family-base);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  font-family: var(--font-family-base);
+  font-size: 14px;
+  width: 162px;
+  height: 44px;
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+  align-self: center;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--primary);
+  opacity: 0.9;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  opacity: 0.9;
+}
+
+.learn {
+  color: var(--primary);
+  font-family: var(--font-family-base);
+  font-weight: bold;
+}
+
+/* Team */
+.container-team {
+  margin-top: 5rem;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.team-member h4 {
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.text-small {
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+}
+
+/* Section Quote */
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.section-quote {
+  background-color: var(--primary);
+}
+
+.carousel-item-quote {
+  background-color: transparent;
+}
+
+.carousel-item-quote blockquote {
+  border-left: none;
+  margin: 0;
+}
+
+.icon-prev-white,
+.icon-next-white {
+  font-size: 5rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.text-quote,
+.text-small-quote {
+  font-family: "Source Sans Pro";
+}
+
+.text-quote,
+.text-small-quote {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #c271ff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Section tutorial */
+.section-tutorial {
+  padding: 97px 0;
+}
+
+.subtitle-popular {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  color: #000000;
+}
+
+.text-popular {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #c271ff;
+}
+
+.img-top {
+  max-width: 255px;
+}
+
+.img-play {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+}
+
+.card {
+  width: 242px;
+}
+
+.carousel-inner {
+  min-height: 390px;
+  display: flex;
+  justify-content: inherit;
+  align-items: center;
+}
+
+.carousel-item .row {
+  max-width: 1100px;
+}
+
+/* .control-prev {
+  left: -60px !important;
+}
+
+.control-next {
+  right: -60px !important;
+} */
+
+.card-title-tutorial {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #071629;
+}
+
+.card-text-tutorial {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(7, 22, 41, 0.501584);
+}
+
+.name-author {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #c271ff;
+}
+
+.time {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: right;
+  color: #c271ff;
+}
+
+.icon-prev-black,
+.icon-next-black {
+  color: #071629;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.img-author {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.img-score {
+  width: 15px;
+}
+
+/* Section membership */
+.section-membership {
+  padding: 5rem 2rem;
+  background-color: #071629;
+}
+
+.text-free {
+  color: var(--primary);
+}
+
+.smile-on {
+  width: 45px;
+  height: 36px;
+}
+
+.membership-data {
+  width: 221px;
+}
+
+.title-membership {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+}
+
+.text-membership {
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+}
+
+/* Section latest */
+.section-latest {
+  padding: 97px 0;
+}
+
+/* Footer */
+footer {
+  padding: 5rem 2rem 1rem 2rem;
+  background-color: #071629;
+}
+
+.social-link > svg {
+  fill: white;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  font-family: var(--font-family-base);
+  opacity: 0.35;
+}
+
+/* Pricing page */
+
+/* Header section */
+.header-pricing {
+  background-image: url(images/pic_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 16rem 1rem 5rem 1rem;
+}
+
+.text-title-1 {
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+}
+
+.text-title-2 {
+  font-family: "Coiny", cursive;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.text-pricing {
+  font-size: 45px;
+}
+
+/* Grid pricing */
+.icon-check {
+  font-size: 25px;
+  color: #82d24f;
+}
+
+.row-space {
+  padding-top: 50px !important;
+}
+
+.promo-price {
+  font-size: 44px;
+  font-family: "Source Sans Pro";
+}
+
+.price-month {
+  font-size: 12px;
+}
+
+.signal-img {
+  width: 88px;
+  height: 35px;
+}
+
+.border-bottom {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Faq */
+.subtitle-faq {
+  font-size: 60px;
+  font-family: "Source Sans Pro";
+}
+
+.col-text {
+  max-width: 350px;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+}
+
+.title-faq {
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  color: #071629;
+}
+
+.text-faq {
+  color: rgba(5, 17, 32, 0.842);
+  font-size: 14px;
+}
+
+/* Courses page */
+
+/* Header section */
+.header-courses {
+  background-image: url(images/pic_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 7rem 1rem;
+}
+
+.title-courses {
+  font-family: "Coiny", cursive;
+  font-size: 32px;
+}
+
+.smile-courses {
+  color: var(--primary);
+}
+
+/* Section search */
+.section-search {
+  padding: 2rem;
+  background-color: var(--primary);
+}
+
+.title-filter {
+  font-family: "Source Sans Pro";
+  font-size: 0.8rem;
+}
+
+.bg-filter {
+  background-color: #d195ff;
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.input-group-text,
+.form-control:focus {
+  background-color: #d195ff;
+  color: #ffffff;
+}
+
+.form-control option {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar-general {
+    position: absolute;
+  }
+
+  .navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    top: 0%;
+  }
+
+  .smile-face {
+    margin: 1rem 0;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-top: 2rem;
+  }
+
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+
+  .navbar-toggler {
+    margin-top: 1rem;
+  }
+
+  .navbar-toggler span {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+
+  /* Header */
+  .title {
+    font-size: 3.5rem;
+  }
+
+  /* Courses page */
+  /* Header */
+  .title-courses {
+    display: none;
+  }
+
+  /* Section tutorial */
+  .multi-item-carousel .carousel-inner .carousel-item > div {
+    display: none;
+  }
+
+  .multi-item-carousel .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.multi-item-carousel {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.multi-item-carousel .carousel-inner .carousel-item.active,
+.multi-item-carousel .carousel-inner .carousel-item-next,
+.multi-item-carousel .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .multi-item-carousel .carousel-inner .carousel-item-right.active,
+  .multi-item-carousel .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .multi-item-carousel .carousel-inner .carousel-item-left.active,
+  .multi-item-carousel .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.multi-item-carousel .carousel-inner .carousel-item-right,
+.multi-item-carousel .carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
